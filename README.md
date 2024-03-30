@@ -1,2 +1,7 @@
-# CPU-Scheduling-Algorithms-Calculator
-Calculate and Plot Different Scheduling Algorithms for the CPU
+# CPU Scheduling Algorithms Calculator
+This code simulates the behavior of several CPU scheduling algorithms using a set of example processes. Each scheduling algorithm is implemented as a separate function, including First Come First Served (FCFS), Shortest Job First (SJF), Shortest Remaining Time First (SRTF), Round Robin (RR) with a time quantum of 5 units, Preemptive Priority Scheduling with aging, and Non-preemptive Priority Scheduling with aging. The code iterates over each algorithm, simulates the scheduling process for a specified time limit, and calculates metrics such as average waiting time and average turnaround time. Additionally, Gantt charts are generated to visualize the execution timeline of processes for each scheduling algorithm.
+
+For each scheduling algorithm, the expected results include:
+
+Average waiting time: This metric indicates the average amount of time processes spend waiting in the ready queue before they can be executed. Lower values suggest better efficiency in utilizing CPU resources.
+Average turnaround time: This metric represents the average time taken for a process to complete execution, including both waiting time and execution time. Lower values indicate faster completion of processes and better overall system performance. Additionally, Gantt charts visually represent the scheduling of processes over time, showing when each process starts and finishes its execution. By comparing the results across different scheduling algorithms, we can determine which algorithm performs best in terms of minimizing waiting time and turnaround time for the given set of example processes.
